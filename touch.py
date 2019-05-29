@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 '''
+    Based on Tim Richardson's PiHueRoom
     File name: PiHueRoom.py
     Author: Tim Richardson
-	Modified: Jimmy White
+    Modified: Jimmy White
     Date created: 04/07/2017
     Date last modified: 29/05/2019
     Python Version: 3.4
@@ -14,7 +15,7 @@
     The Raspberry Pi must be on the same network as the Hue bridge
     You must set the bridgeip to be the IP address of your bridge
     and edit the room constant 'roomname'
-    You can edit/expand the colour 'xy' values and the alerts
+    
 '''
 from phue import Bridge
 import time
