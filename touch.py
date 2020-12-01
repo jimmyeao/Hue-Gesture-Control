@@ -110,12 +110,12 @@ while True:
         print("off")
     if gesture == 0x03:
         if bright >= 10:
-               bright -= 10
+               bright -= 20
                b.set_group(roomnumber, 'bri', bright)
                print(bright)
                print("Dimming")
     if gesture == 0x04:
         if bright <= 255:
-               bright += 10
+               bright += 20
                b.set_group(roomnumber, 'bri', bright)
                print (bright)
