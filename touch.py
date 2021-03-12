@@ -5,7 +5,7 @@
     Author: Tim Richardson
     Modified: Jimmy White
     Date created: 04/07/2017
-    Date last modified: 29/05/2019
+    Date last modified: 12/03/2021
     Python Version: 3.4
 	Description:
 	Control Philips Hue lights using a APDS9960 gesture sensor - Room version
